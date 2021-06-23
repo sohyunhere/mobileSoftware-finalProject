@@ -167,6 +167,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
 
+                //현재 상영중인 영화 찾기
+            case R.id.showing:
+                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=1&acr=1&acq=%ED%98%84%EC%9E%AC+%EC%83%81%EC%97%AC&qdt=0&ie=utf8&query=%ED%98%84%EC%9E%AC+%EC%83%81%EC%98%81%EC%A4%91%EC%9D%B8+%EC%98%81%ED%99%94"));
+                startActivity(intent);
+                break;
         }
         return true;
     }

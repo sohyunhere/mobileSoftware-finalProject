@@ -8,6 +8,9 @@
         android:id="@+id/search_movie"
         android:title="영화 검색하기" />
     <item
+        android:id="@+id/showing"
+        android:title="현재 상영중인 영화 찾기" />
+    <item
         android:id="@+id/introduce"
         android:title="개발자 소개" />
     <item
