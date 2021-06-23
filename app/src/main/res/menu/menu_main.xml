@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_review"
+        android:title="영화 리뷰 추가" />
+    <item
+        android:id="@+id/search_movie"
+        android:title="영화 검색하기" />
+    <item
+        android:id="@+id/introduce"
+        android:title="개발자 소개" />
+    <item
+        android:id="@+id/emergency"
+        android:title="긴급전화" />
+    <item
+        android:id="@+id/close_app"
+        android:title="앱 종료" />
+</menu>
